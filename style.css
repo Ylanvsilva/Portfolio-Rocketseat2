@@ -118,12 +118,13 @@ body {
     border-radius: 20px;
 
     display: flex;
+    flex-direction: column;
 }
 
 .technologias h1 {
     width: 121px;
     height: 26px;
-    margin: 30px 207px 152px 20px;
+    margin: 30px 207px 20px 20px;
 
     font-style: normal;
     font-weight: 700;
@@ -133,3 +134,71 @@ body {
     color: #837E9F;
 }
 
+.technologias_section {
+    /* outline: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin: 0 30px 30px 30px;
+}
+
+.group {
+    width: 86px;
+    height: 24px;
+    margin: 0px 10px 15px 10px;
+
+    background: #CB92B1;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group h1 {
+    width: 86px;
+    height: 11px;
+    margin: 6px 0px 7px 0;
+
+    font-style: normal;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    justify-content: center;
+
+    color: #000000;
+}
+
+.experiences {
+    width: 348px;
+    height: 349px;
+
+    margin: 0px 1052px 30px 40px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.experiences h1{
+    width: 141px;
+    height: 26px;
+
+    margin: 30px 187px 20px 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #837E9F;
+}
+
+.experiences_section {
+    outline: 1px solid red;
+    margin: 0 133px 30px 40px;
+}
