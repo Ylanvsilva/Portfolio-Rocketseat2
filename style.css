@@ -135,7 +135,6 @@ body {
 }
 
 .technologias_section {
-    /* outline: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -199,6 +198,107 @@ body {
 }
 
 .experiences_section {
-    outline: 1px solid red;
     margin: 0 133px 30px 40px;
+
+    width: 175px;
+    height: 243px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.experiences_section section {
+    margin: 0px 0px 10px 0px;
+}
+
+.experiences_section li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15.08px;
+
+    color: var(--text-color);
+}
+
+.experiences_section span {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15.08px;
+
+    color: var(--text-color);
+}
+
+.education {
+    height: 352px;
+    width: 348px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    margin: 0px 1052px 58px 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.education h1 {
+    width: 141px;
+    height: 26px;
+
+    margin: 30px 187px 20px 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #837E9F;
+}
+
+.education_section {
+    margin: 0px 133px 30px 40px;
+
+    width: 175px;
+    height: 246px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.education_section section {
+    margin: 0px 0px 20px 0px;
+}
+
+.education_section li {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.6px;
+
+    color: #837E9F;
+}
+
+.education_section span {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15.08px;
+
+    color: #837E9F;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+.projects {
+    width: 952px;
+    height: 86px;
+    
+    margin: 40px 40px 247px 0px;
+
+    background: #302f3d;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
 }
