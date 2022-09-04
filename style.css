@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Josefin+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:wght@700&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Noto+Sans:wght@400;700&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Righteous&family=Sarala:wght@400;700&family=Silkscreen&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
 
-* {
-    font-family: 'Merriweather Sans', sans-serif;
-}
-
-body {
-    background-color: #22212c;
-}
-
 :root {
     --body-bg-color: #22212C;
     --text-color: #837E9F;
@@ -65,10 +57,6 @@ body {
     line-height: 16px;
 
     color: #837E9F;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .links {
@@ -296,9 +284,253 @@ body {
     width: 952px;
     height: 86px;
     
-    margin: 40px 40px 247px 0px;
+    margin: 40px 40px 31px 0px;
 
     background: #302f3d;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+
+    display: flex;
+}
+
+.projects h1 {
+    width: 121px;
+    height: 26px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    margin: 30px 700px 30px 30px;
+
+    color: #837E9F;
+}
+
+.projects p {
+    width: 71px;
+    height: 18px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    margin: 34px 30px 34px 0px;
+
+    color: #837E9F;
+
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    height: 380px;
+}
+
+.recent_posts {
+    width: 952px;
+    height: 86px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    margin: 0px 40px 30px 0px;
+}
+
+.recent_posts h1 {
+    width: 140px;
+    height: 26px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    margin: 30px 782px 30px 30px;
+
+    color: #837E9F;
+}
+
+.post {
+    width: 952px;
+    height: 201px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    margin: 0px 40px 1077px 0px;
+    
+    display: flex;
+}
+
+.chest {
+    display: flex;
+    flex-direction: column;
+}
+
+.post img {
+    width: 128px;
+    height: 128px;
+
+    border-radius: 50%;
+
+    margin: 31px 20px 42px 30px;
+}
+
+.group_post {
+    width: 612px;
+    height: 129px;
+
+    margin: 30px 162px 42px 0px;
+}
+
+.group_post h1 {
+    width: 612px;
+    height: 31px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #837E9F;
+
+    margin: 0;
+}
+
+.group_post p {
+    width: 83px;
+    height: 18px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #837E9F;
+
+    margin: 0px 0px 28px 0px;
+}
+
+.group_post h2 {
+    width: 501px;
+    height: 20px;
+
+    font-size: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #837E9F;
+
+    margin: 0px 0px 11px 0px;
+}
+
+.group_hashtag {
+    width: 446px;
+    height: 21px;
+
+    display: flex;
+}
+
+.group_hashtag p {
+    width: 110px;
+    height: 21px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+.container_projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.project1 {
+    width: 461px;
+    height: 186px;
+
+    background: #302f3d;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    margin: 0px 30px 30px 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.project1 h4 {
+    margin-left: 30px;
+    line-height: 20px;
+
+    color: #837E9F;
+}
+
+.project2 {
+    width: 461px;
+    height: 186px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    margin: 0px 40px 30px 0px;
+}
+
+.box_projects {
+    display: flex;
+}
+
+.tuta {
+    display: flex;
+    align-items: center;
+
+    margin: 30px 0 20px 30px;
+
+    gap: 16px;
+}
+
+.tuta h3 {
+    color: #837E9F;
+}
+
+.arthur {
+    margin-top: 30px;
+    margin-left: 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.arthur h6 {
+    color: #837E9F;
+}
+
+.alcantara {
+    display: flex;
+
+    margin-left: 181px;
+
+    gap: 8px;
+}
+
+.alcantara h5 {
+    width: 69px;
+    height: 16px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #837E9F;
 }
